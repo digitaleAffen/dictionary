@@ -15,7 +15,7 @@ export default function App() {
         <footer>
           Cooded by <strong>Gio Lamadrid</strong>{" "}
           <img src={logo} className="App-logo" alt="logo" width="40" />{" "}
-          <a href="https://github.com/digitaleAffen/dictionary">
+          <a href="https://github.com/digitaleAffen/dictionary" target="_blank">
             Open-sourse on GitHub
           </a>
         </footer>
