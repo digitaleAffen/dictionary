@@ -1,5 +1,5 @@
 .App h1 {
-  color: white;
+  color: #cadefc;
   font-size: 80px;
   margin: 15px;
   text-align: center;
@@ -12,6 +12,9 @@ form {
 footer {
   opacity: 0.8;
   text-align: center;
+  font-size: 14px;
+  font-family: monospace;
+  margin-bottom: 30px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -34,8 +37,10 @@ footer {
 }
 
 a {
+  text-decoration-line: none;
   color: #cca8e9;
 }
 a:hover {
+  text-decoration-line: underline;
   color: #b780e3;
 }
