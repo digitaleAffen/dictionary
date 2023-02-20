@@ -10,6 +10,7 @@ form {
 }
 
 footer {
+  opacity: 0.8;
   text-align: center;
 }
 
@@ -28,15 +29,13 @@ footer {
 }
 
 .App {
-  /* text-align: center; */
+  max-width: 960px;
   opacity: 0, 8;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  color: #cca8e9;
 }
-
-.App-link {
-  color: #61dafb;
+a:hover {
+  color: #b780e3;
 }
