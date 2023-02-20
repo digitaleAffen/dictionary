@@ -30,3 +30,9 @@
 .searchBar:focus-visible {
   opacity: 0.6;
 }
+
+@media (max-width: 768px) {
+  .Dictionary h1 {
+    font-size: 19px;
+  }
+}

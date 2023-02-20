@@ -1,8 +1,9 @@
-.App h1 {
+h1 {
   color: #cadefc;
   font-size: 80px;
   margin: 15px;
   text-align: center;
+  font-weight: bold;
 }
 
 form {
@@ -43,4 +44,15 @@ a {
 a:hover {
   text-decoration-line: underline;
   color: #b780e3;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 70px;
+  }
+
+  footer {
+    font-size: 12px;
+    padding: 10px;
+  }
 }
