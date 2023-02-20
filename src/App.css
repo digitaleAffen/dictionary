@@ -1,4 +1,7 @@
-h1 {
+.App h1 {
+  color: white;
+  font-size: 80px;
+  margin: 15px;
   text-align: center;
 }
 

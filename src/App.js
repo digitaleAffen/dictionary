@@ -10,7 +10,7 @@ export default function App() {
           <h1>Dictionary</h1>
         </header>
         <main>
-          <Dictionary defaultKeyword="Nature" />
+          <Dictionary defaultKeyword="Serendipity" />
         </main>
         <footer>
           Cooded by <strong>Gio Lamadrid</strong>{" "}
