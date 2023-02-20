@@ -56,13 +56,10 @@ export default function Dictionary(props) {
               type="search"
               autoFocus={true}
               onChange={handelKeywordChange}
-              placeholder="Example: serendipity"
+              placeholder="Example: Serendipity"
               className="searchBar"
             />
           </form>
-          {/* <div className="hint">
-            Suggested words: apple, yoga, sunset, wine...
-          </div> */}
         </section>
         <WordData results={results} />
         <Photos photos={photos} />
