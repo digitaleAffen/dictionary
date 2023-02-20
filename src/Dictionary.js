@@ -18,7 +18,6 @@ export default function Dictionary(props) {
   function search() {
     // API docu https://dictionaryapi.dev/
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
-    // console.log(apiUrl);
     axios.get(apiUrl).then(handleDictionaryResponse);
   }
 
@@ -57,7 +56,7 @@ export default function Dictionary(props) {
               type="search"
               autoFocus={true}
               onChange={handelKeywordChange}
-              placeholder="Example: sunset"
+              placeholder="Example: serendipity"
               className="searchBar"
             />
           </form>
