@@ -8,9 +8,14 @@ export default function WordData(props) {
     return (
       <div className="WordData">
         <section>
-          <h2>{props.results.word}</h2>
-          <Phonetic phonetics={props.results.phonetics[0]} />
-          <Phonetic phonetics={props.results.phonetics[1]} />
+          <ul>
+            <li>
+              <h2>{props.results.word}</h2>
+            </li>
+            <li>
+              <Phonetic phonetics={props.results.phonetics[0]} />
+            </li>
+          </ul>
         </section>
         {props.results.meanings.map(function (meaning, index) {
           return (
