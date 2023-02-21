@@ -8,7 +8,7 @@ export default function WordData(props) {
     return (
       <div className="WordData">
         <section>
-          <ul>
+          <ul className="phonetics">
             <li>
               <h2>{props.results.word}</h2>
             </li>
