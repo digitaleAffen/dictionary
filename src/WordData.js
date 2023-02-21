@@ -10,6 +10,7 @@ export default function WordData(props) {
         <section>
           <h2>{props.results.word}</h2>
           <Phonetic phonetics={props.results.phonetics[0]} />
+          <Phonetic phonetics={props.results.phonetics[1]} />
         </section>
         {props.results.meanings.map(function (meaning, index) {
           return (
