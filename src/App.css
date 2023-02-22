@@ -32,9 +32,9 @@ footer {
   }
 }
 
-.App {
-  max-width: 960px;
+.container {
   opacity: 0, 8;
+  max-width: 700px;
 }
 
 a {
