@@ -21,13 +21,19 @@
   border-radius: 6px;
 }
 
-.searchBar {
+.search-row {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-column-gap: 10px;
+}
+
+.search-bar {
   border-color: #cadefc;
   font-size: small;
   padding: 7px;
 }
 
-.searchBar:focus-visible {
+.search-bar:focus-visible {
   opacity: 0.6;
 }
 
@@ -47,9 +53,5 @@
 @media (max-width: 768px) {
   .Dictionary h1 {
     font-size: 19px;
-  }
-
-  .search-button {
-    margin-top: 10px;
   }
 }
