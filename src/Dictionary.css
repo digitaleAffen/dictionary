@@ -24,15 +24,32 @@
 .searchBar {
   border-color: #cadefc;
   font-size: small;
-  padding: 5px;
+  padding: 7px;
 }
 
 .searchBar:focus-visible {
   opacity: 0.6;
 }
 
+.search-button {
+  background: #cadefc;
+  border: 1px solid;
+  border-radius: 50px;
+  color: white;
+  padding: 5px;
+}
+.search-button:hover {
+  background: #cca8e9;
+  color: white;
+  transition: all 150ms ease-in-out;
+}
+
 @media (max-width: 768px) {
   .Dictionary h1 {
     font-size: 19px;
+  }
+
+  .search-button {
+    margin-top: 10px;
   }
 }
