@@ -47,12 +47,16 @@ a:hover {
 }
 
 @media (max-width: 768px) {
+  .container {
+    max-width: 360px;
+  }
+
   h1 {
-    font-size: 70px;
+    font-size: 64px;
   }
 
   footer {
-    font-size: 12px;
+    font-size: 10px;
     padding: 10px;
   }
 }
