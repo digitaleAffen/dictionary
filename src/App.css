@@ -1,3 +1,8 @@
+.container {
+  opacity: 0, 8;
+  max-width: 700px;
+}
+
 h1 {
   color: #cadefc;
   font-size: 80px;
@@ -10,31 +15,39 @@ form {
   text-align: center;
 }
 
+.button {
+  text-align: center;
+}
+
+.button button {
+  background: #cadefc;
+  border: 1px solid;
+  border-radius: 50px;
+  color: white;
+  margin: 15px 0 20px 0;
+  padding: 15px;
+}
+.button button:hover {
+  background: #cca8e9;
+  color: white;
+  transition: all 150ms ease-in-out;
+}
+
+.button a {
+  color: white;
+}
+
+.button a:hover {
+  color: white;
+  text-decoration: none;
+}
+
 footer {
   opacity: 0.8;
   text-align: center;
   font-size: 14px;
   font-family: monospace;
   margin-bottom: 30px;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.container {
-  opacity: 0, 8;
-  max-width: 700px;
 }
 
 a {
@@ -44,6 +57,21 @@ a {
 a:hover {
   text-decoration-line: underline;
   color: #b780e3;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 @media (max-width: 768px) {
